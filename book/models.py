@@ -1,5 +1,6 @@
 from django.db import models
 
+# 数据库类模型层
 # Create your models here.
 class BookInfo(models.Model):
     name = models.CharField(max_length=200)
